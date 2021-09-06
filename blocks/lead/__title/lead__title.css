@@ -1,0 +1,25 @@
+.lead__title {
+  max-width: 720px;
+  margin: 0 auto 32px;
+
+  font-family: Inter, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 104%;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* Шрифт при ширине экрана меньше 768px пропорционально уменьшается */
+@media (max-width: 768px) {
+  .lead__title {
+    font-size: calc(40px + (56 + 56 * 0.7) * ((100vw - 320px) / 1280));
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__title {
+    margin: 0 0 16px;
+  }
+}

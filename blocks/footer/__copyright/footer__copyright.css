@@ -1,0 +1,15 @@
+.footer__copyright {
+  margin: 0;
+  font-family: Inter, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 114%;
+  color: #FFFFFF;
+}
+
+@media (max-width: 700px) {
+  .footer__copyright {
+    margin-top: 30px;
+  }
+}

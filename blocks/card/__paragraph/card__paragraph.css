@@ -1,0 +1,19 @@
+.card__paragraph {
+  margin: 0 0 26px;
+  font-family: Inter, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+}
+
+.card__paragraph:last-child {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .card__paragraph {
+    font-size: calc(16px + (2 + 2 * 0.7) * ((100vw - 320px) / 1280));
+  }
+}

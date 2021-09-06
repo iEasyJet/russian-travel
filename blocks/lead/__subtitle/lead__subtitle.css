@@ -1,0 +1,39 @@
+.lead__subtitle {
+  max-width: 640px;
+  margin: 0 auto 64px;
+
+  font-family: Inter, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 120%;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .lead__subtitle {
+    margin: 0 auto 56px;
+  }
+}
+
+/* Шрифт при ширине экрана меньше 768px пропорционально уменьшается */
+@media (max-width: 768px) {
+  .lead__subtitle {
+    max-width: 450px;
+    font-size: calc(16px + (14 + 14 * 0.7) * ((100vw - 320px) / 1280));
+  }
+}
+
+@media (max-width: 600px) {
+  .lead__subtitle {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__subtitle {
+    line-height: 125%;
+    margin: 0 auto 40px;
+  }
+}

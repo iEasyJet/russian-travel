@@ -1,0 +1,23 @@
+.lead__text {
+  margin: 8px 0 0;
+  font-family: Inter, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .lead__text {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__text {
+    margin-left: 16px;
+  }
+}

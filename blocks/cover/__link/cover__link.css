@@ -1,0 +1,21 @@
+.cover__link {
+  display: block;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: #2A2C2F;
+  opacity: 0.3;
+
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.cover__link:hover {
+  opacity: 0.8;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}

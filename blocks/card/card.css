@@ -1,0 +1,38 @@
+.card {
+  display: grid;
+  grid-template-columns: 460px 484px;
+
+  gap: 40px;
+  margin: 0 0 80px;
+}
+
+.card:last-child {
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    grid-template-columns: fit-content(440px) fit-content(456px);
+    gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    grid-template-columns: fit-content(340px) fit-content(352px);
+    gap: 28px;
+  }
+}
+
+@media (max-width: 660px) {
+  .card {
+    grid-template-columns: minmax(min-content, max-content);
+  }
+}
+
+@media (max-width: 320px) {
+  .card {
+    grid-template-columns: fit-content(320px);
+    gap: 0;
+  }
+}
