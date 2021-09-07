@@ -7,6 +7,7 @@
 
 @media (max-width: 320px) {
   .card__url {
-    margin-bottom: 32px;
+    margin-bottom: 30px;
+    padding-left: 17px;
   }
 }

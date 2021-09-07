@@ -1,15 +1,9 @@
 .intro__text {
-  margin: 0 0 34px;
+  margin: 0 0 33px;
   font-family: Inter, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 163%;
   color: #FFFFFF;
-}
-
-@media (max-width: 768px) {
-  .intro__title {
-    font-size: calc(32px + (12 + 12 * 0.7) * ((100vw - 320px) / 1280));
-  }
 }

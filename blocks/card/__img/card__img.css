@@ -1,3 +1,10 @@
 .card__img {
   width: 100%;
 }
+
+@media (max-width: 320px) {
+  .card__img {
+    max-width: 320px;
+    margin-bottom: 32px;
+  }
+}

@@ -10,6 +10,12 @@
   color: #FFFFFF;
 }
 
+@media (max-width: 1024px) {
+  .lead__text {
+    margin-left: 28px;
+  }
+}
+
 @media (max-width: 768px) {
   .lead__text {
     margin-left: 24px;

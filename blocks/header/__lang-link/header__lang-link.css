@@ -6,18 +6,16 @@
   line-height: 117%;
   color: #FFFFFF;
   text-decoration: none;
-  margin-right: 18px;
 
   cursor: pointer;
+
+  transition: opacity .5s ease;
 }
 
-.header__lang-link:last-child {
-  margin-right: 0px;
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
-.header__lang-link:first-child {
-  text-decoration: underline;
-}
 
 @media (max-width: 320px) {
   .header__lang-link {

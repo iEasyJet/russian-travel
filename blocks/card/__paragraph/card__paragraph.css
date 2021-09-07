@@ -12,8 +12,26 @@
   margin: 0;
 }
 
+@media (max-width: 1024px) {
+  .card__paragraph {
+    margin: 0 0 24px;
+  }
+}
+
+
 @media (max-width: 768px) {
   .card__paragraph {
-    font-size: calc(16px + (2 + 2 * 0.7) * ((100vw - 320px) / 1280));
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+@media (max-width: 320px) {
+  .card__paragraph {
+    max-width: 295px;
+    padding-left: 17px;
+  }
+  .card:nth-of-type(4) .card__paragraph {
+    max-width: 290px;
   }
 }

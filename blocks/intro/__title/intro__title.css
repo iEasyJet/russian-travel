@@ -1,16 +1,17 @@
 .intro__title {
-  margin: 0 0 40px;
+  margin: 0 0 29px;
   font-family: Inter, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
-  line-height: 150%;
+  line-height: 146%;
   color: #FFFFFF;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
   .intro__title {
-    font-size: calc(32px + (12 + 12 * 0.7) * ((100vw - 320px) / 1280));
+    line-height: 107%;
+    margin: 0 0 41px;
   }
 }
 

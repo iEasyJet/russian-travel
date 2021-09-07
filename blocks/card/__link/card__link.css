@@ -3,17 +3,18 @@
   font-family: Inter, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 100%;
-  letter-spacing: 2px;
+  font-size: 18px;
   color: #FFFFFF;
+  text-decoration: none;
+
+  border-bottom: 1px solid white;
 
   cursor: pointer;
   transition: opacity 0.5s ease-in-out;
 }
 
 .card__link:hover {
-  opacity: 0.2;
+  opacity: 0.8;
 }
 
 @media (max-width: 320px) {

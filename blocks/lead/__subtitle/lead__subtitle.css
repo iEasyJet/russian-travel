@@ -17,14 +17,6 @@
   }
 }
 
-/* Шрифт при ширине экрана меньше 768px пропорционально уменьшается */
-@media (max-width: 768px) {
-  .lead__subtitle {
-    max-width: 450px;
-    font-size: calc(16px + (14 + 14 * 0.7) * ((100vw - 320px) / 1280));
-  }
-}
-
 @media (max-width: 600px) {
   .lead__subtitle {
     max-width: 350px;
@@ -33,7 +25,8 @@
 
 @media (max-width: 320px) {
   .lead__subtitle {
-    line-height: 125%;
+    font-size: 16px;
+    line-height: 20px;
     margin: 0 auto 40px;
   }
 }

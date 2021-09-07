@@ -1,5 +1,4 @@
 .cover__title {
-  z-index: 1;
   max-width: 560px;
   margin: 0;
   font-family: Inter, Verdana, Tahoma, sans-serif;
@@ -11,14 +10,11 @@
   color: #FFFFFF;
 }
 
-@media (max-width: 768px) {
-  .cover__title {
-    font-size: calc(32px + (40 + 40 * 0.7) * ((100vw - 320px) / 1280));
-  }
-}
+
 
 @media (max-width: 320px) {
   .cover__title {
+    margin: 33px auto 0;
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;

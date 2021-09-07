@@ -11,13 +11,24 @@
 
 @media (max-width: 768px) {
   .card__title {
-    font-size: calc(32px + (40 + 40 * 0.7) * ((100vw - 320px) / 1280));
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .card:first-of-type .card__title {
+    max-width: 250px;
   }
 }
 
 @media (max-width: 320px) {
   .card__title {
+    max-width: 320px;
     font-size: 32px;
+    line-height: 35px;
     margin-bottom: 32px;
+    padding-left: 17px;
+  }
+  .card:first-of-type .card__title {
+    max-width: 320px;
   }
 }

@@ -1,0 +1,23 @@
+.header__links {
+  margin: 0;
+  padding: 0 0 5px;
+  list-style: none;
+  display: flex;
+  gap: 18px;
+}
+
+@media (max-width: 1024px) {
+  .header__links {
+    justify-content: center;
+    padding: 0 0 4px;
+    margin-right: 15px;
+    gap: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__links {
+    margin-right: 0;
+    gap: 19px;
+  }
+}

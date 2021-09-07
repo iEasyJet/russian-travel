@@ -1,8 +1,5 @@
-.card__text {
-  max-width: 484px;
-}
-@media (max-width: 320px) {
+@media (max-width: 320px){
   .card__text {
-    margin: 32px auto 0;
+    min-width: 280px;
   }
 }
