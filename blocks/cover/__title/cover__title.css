@@ -8,13 +8,14 @@
   line-height: 106%;
   text-align: center;
   color: #FFFFFF;
+  z-index: 1;
 }
 
 
 
 @media (max-width: 600px) {
   .cover__title {
-    margin: 33px auto 0;
+    margin: 0 auto;
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
