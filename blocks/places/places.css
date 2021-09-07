@@ -1,6 +1,5 @@
 .places {
   max-width: 984px;
-  box-sizing: border-box;
   margin: 92px 0 0 94px;
   padding: 0 55px 0;
 }
@@ -17,12 +16,13 @@
   .places {
     max-width: 720px;
     margin: 90px auto 0;
-    padding: 0;
+    padding: 0 24px 0;
   }
 }
 
 @media (max-width: 320px) {
   .places {
     margin: 66px auto 0;
+    padding: 0;
   }
 }

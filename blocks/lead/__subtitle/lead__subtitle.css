@@ -17,14 +17,18 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .lead__subtitle {
-    max-width: 350px;
+    max-width: 400px;
+
+    font-size: 25px;
+    margin: 0 auto 40px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
   .lead__subtitle {
+    max-width: 300px;
     font-size: 16px;
     line-height: 20px;
     margin: 0 auto 40px;

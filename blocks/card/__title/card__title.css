@@ -20,12 +20,18 @@
   }
 }
 
+@media (max-width: 600px) {
+  .card__title {
+    margin-bottom: 32px;
+  }
+}
+
+
 @media (max-width: 320px) {
   .card__title {
     max-width: 320px;
     font-size: 32px;
     line-height: 35px;
-    margin-bottom: 32px;
     padding-left: 17px;
   }
   .card:first-of-type .card__title {

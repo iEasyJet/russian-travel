@@ -2,9 +2,9 @@
   width: 100%;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .card__img {
-    max-width: 320px;
+    max-width: 100%;
     margin-bottom: 32px;
   }
 }

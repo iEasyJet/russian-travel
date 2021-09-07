@@ -1,7 +1,5 @@
 .places__cards {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   list-style: none;
 }
-
-

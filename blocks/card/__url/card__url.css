@@ -5,9 +5,14 @@
   gap: 12px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .card__url {
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .card__url {
     padding-left: 17px;
   }
 }
