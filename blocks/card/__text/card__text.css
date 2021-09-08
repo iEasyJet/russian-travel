@@ -18,7 +18,13 @@
 
  @media (max-width: 420px) {
   .card__text {
+    padding: 0 16px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .card__text {
     max-width: 288px;
-    margin: 0 auto;
+    padding-right: 0;
   }
 }
