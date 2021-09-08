@@ -4,6 +4,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
+  line-height: 22px;
   color: #FFFFFF;
   text-decoration: none;
 
@@ -15,11 +16,4 @@
 
 .card__link:hover {
   opacity: 0.8;
-}
-
-@media (max-width: 320px) {
-  .card__link {
-    font-size: 18px;
-    line-height: 22px;
-  }
 }

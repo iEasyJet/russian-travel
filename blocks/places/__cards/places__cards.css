@@ -1,5 +1,21 @@
 .places__cards {
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+@media (max-width: 860px) {
+  .places__cards {
+    gap: 73px;
+  }
+}
+
+@media (max-width: 650px) {
+  .places__cards {
+     gap: 50px;
+  }
 }

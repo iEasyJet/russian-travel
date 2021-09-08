@@ -1,5 +1,5 @@
 .card__paragraph {
-  margin: 0 0 26px;
+  margin: 0;
   font-family: Inter, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -8,30 +8,9 @@
   color: #FFFFFF;
 }
 
-.card__paragraph:last-child {
-  margin: 0;
-}
-
-@media (max-width: 1024px) {
-  .card__paragraph {
-    margin: 0 0 26px;
-  }
-}
-
-
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .card__paragraph {
     font-size: 16px;
     line-height: 163%;
-  }
-}
-
-@media (max-width: 320px) {
-  .card__paragraph {
-    max-width: 295px;
-    padding-left: 17px;
-  }
-  .card:nth-of-type(4) .card__paragraph {
-    max-width: 290px;
   }
 }

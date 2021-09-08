@@ -10,20 +10,10 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 936px) {
   .lead__img {
     max-width: 100%;
   }
 }
 
-@media (max-width: 768px) {
-  .lead__img {
-    max-width: 100%;
-  }
-}
 
-@media (max-width: 320px) {
-  .lead__img {
-    max-width: 100%;
-  }
-}

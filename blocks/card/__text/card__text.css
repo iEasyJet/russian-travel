@@ -1,5 +1,24 @@
-@media (max-width: 320px){
+.card__text {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+@media (max-width: 860px) {
   .card__text {
-    min-width: 280px;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 650px) {
+   .card__text {
+     max-width: 340px;
+   }
+ }
+
+ @media (max-width: 420px) {
+  .card__text {
+    max-width: 288px;
+    margin: 0 auto;
   }
 }

@@ -1,0 +1,28 @@
+.card__box-text {
+  margin-top: 48px;
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width: 1024px) {
+  .card__box-text {
+    gap: 32px;
+  }
+}
+
+
+@media (max-width: 860px) {
+  .card__box-text {
+    gap: 28px;
+  }
+
+}
+
+@media (max-width: 650px) {
+  .card__box-text {
+    margin-top: 32px;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+

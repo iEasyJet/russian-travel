@@ -1,18 +1,24 @@
 .card__url {
-  display: grid;
-  justify-content: start;
-  align-content: end;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
   gap: 12px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 860px) {
   .card__url {
-    margin-bottom: 30px;
+    gap: 12px;
   }
 }
 
-@media (max-width: 320px) {
-  .card__url {
-    padding-left: 17px;
-  }
-}
+@media (max-width: 650px) {
+   .card__url {
+     align-self: flex-start;
+   }
+ }
+
+ @media (max-width: 420px) {
+   .card__url {
+     padding-left: 16px;
+   }
+ }

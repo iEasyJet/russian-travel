@@ -19,11 +19,13 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(41, 43, 46, 0.3);
+  background: #2A2C2F;
+  opacity: 0.3;
 }
 
 .cover__link:hover {
-  background-color: rgba(41, 43, 46, 0.8);
+  background: #2A2C2F;
+  opacity: 0.8;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }

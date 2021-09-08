@@ -1,0 +1,26 @@
+.card__box-title {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+@media (max-width: 1024px) {
+  .card__box-title {
+    gap: 32px;
+  }
+}
+
+
+@media (max-width: 860px) {
+  .card__box-title {
+    gap: 28px;
+  }
+}
+
+@media (max-width: 650px) {
+  .card__box-title {
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
