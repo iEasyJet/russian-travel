@@ -1,4 +1,6 @@
-# "Путешествие по России" <kbd>Яндекс.Практикум</kbd>
+# "Путешествие по России" 
+
+<kbd>Яндекс.Практикум</kbd>
 
 ## Описание проекта:
 Одностраничный сайт на тему "Путешествие по России". Работа сделана на основании макета [Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=28503%3A0).
@@ -20,6 +22,6 @@
 
 ### `Статус проекта:` <kbd>Завершен</kbd>
 
-[Проект](https://ieasyjet.github.io/second-project/)
+[gh-pages](https://ieasyjet.github.io/second-project/)
 
 [Репозиторий](https://github.com/iEasyJet/second-project)
